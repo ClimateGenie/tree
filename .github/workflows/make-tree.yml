@@ -1,0 +1,32 @@
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies via pip
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Install graphviz
+        run: sudo apt-get install -y graphviz
+
+      - name: Run main.py
+        run: python main.py
+
+      - name: Amend the last commit with changes to tree.png
+        run: |
+          git config --global user.name "Build Bot"
+          git config --global user.email "bot@github.com"
+          git add tree.png
+          git commit --amend --no-edit
+          git push --force-with-lease
