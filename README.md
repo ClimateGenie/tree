@@ -1,6 +1,5 @@
 ---
    title: "Climate Genie: Combating Climate Misinformation"
-   date: "`r Sys.Date()`"
    output: pdf_document
 ---
 
