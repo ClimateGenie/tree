@@ -1,7 +1,6 @@
 ---
    title: "Climate Genie: Combating Climate Misinformation"
-   author: "Author Name"
-   date: "`r Sys.Date()`"
+   date: "r Sys.Date()"
    output: pdf_document
 ---
 
