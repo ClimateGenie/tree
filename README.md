@@ -1,4 +1,9 @@
-# Climate Genie: Combating Climate Misinformation
+---
+   title: "Climate Genie: Combating Climate Misinformation"
+   author: "Author Name"
+   date: "`r Sys.Date()`"
+   output: pdf_document
+---
 
 ## Problem Statement
 
