@@ -28,5 +28,5 @@ jobs:
           git config --global user.name "Build Bot"
           git config --global user.email "bot@github.com"
           git add tree.png
-          git commit --amend --no-edit
+          git commit -m'tree build'
           git push --force-with-lease
