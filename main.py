@@ -53,7 +53,7 @@ class Node:
         return child
 
     def draw_graph(self):
-        fig = plt.figure(1, figsize=(18, 6), dpi=300)
+        fig = plt.figure(1, figsize=(18, 9), dpi=300)
         ax = fig.add_subplot(111)
         ax.axis("off")
         pos = graphviz_layout(self.graph, prog="dot")
@@ -102,9 +102,6 @@ def main():
     for req in ["Update Socials", "Promo Materials"]:
         child = marketing.create_child(req)
         pre_release_reqs.append(child)
-    marketing.create_child("FB adds")
-    marketing.create_child("Blog posts")
-    marketing.create_child("Social Media Campaigns")
 
     technical = pre_release.create_child("Technical", "magenta")
     for req in ["Confirm Scalability", "Move off AWS"]:
@@ -152,6 +149,7 @@ def main():
     accademic = rnp.create_child("Academic")
     accademic.create_child("Tracking Habit Change Through User Data")
     accademic.create_child("Replication of Coan 2021 with new model")
+    accademic.create_child("Documentation of the extention design")
 
     deconstrution = accademic.create_child("Deconstrution of new claims")
     taxonomy.connect(deconstrution)
@@ -165,13 +163,10 @@ def main():
 
     partnerships = release.create_child("Partnerships", "dodgerblue")
 
-    partnerships.create_child("Stan Grant")
-    partnerships.create_child("Monash Units")
-    partnerships.create_child("Climate Classroom")
-    partnerships.create_child("Jigsaw")
-    partnerships.create_child("NESP")
-    partnerships.create_child("Jigsaw")
-    producers = partnerships.create_child("News Producers")
+    partnerships.create_child("Educators")
+    partnerships.create_child("Fact Checkers")
+
+    producers = partnerships.create_child("Publishers")
 
     per_outlet.connect(producers)
 
