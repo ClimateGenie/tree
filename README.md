@@ -58,15 +58,14 @@ Non-academic content creation options include:
 Exploration of additional dissemination methods:
 
 - **Conversational AI:** Deployment through chatbots to engage with users directly.
-- **Social Media Integration:** Partner with platforms for in-app misinformation detection.
-- **Mobile and Web Platforms:** Development of dedicated apps and websites for easier access.
+- **Social Media Integration:** Develop the extension to work within social-media sites directly.
+- **Mobile and Web Platforms:** Development of dedicated apps and websites for easier access to people who can't use web extensions, e.g. Government workers and Mobile users
 
 ### Future Partnerships
 
 #### Educational Collaborations 
 
-- **Curriculum Integration:** Utilize the systematic debunking methodology as an educational resource.
-- **Climate Classroom Involvement:** Partner with academic programs to integrate the tool into learning environments.
+- **Curriculum Integration:** Utilize the systematic debunking methodology as an educational resource. There is already some traction for this within the Monash School of Film, Media and Journalism.
 
 #### Fact Checking Alliances
 
