@@ -1,83 +1,81 @@
-## What Problem Are we solving 
+# Climate Genie: Combating Climate Misinformation
 
-Climate change is an environmental and societal emergency, where urgent action across all sectors is required. misinformation about climate change continues to hinder necessary action. 
+## Problem Statement
 
-This misinformation is commonly spread online, and therefore can reach many individuals rapidly. Online misinformation in particular is pervasive, as it can spread significantly faster than it can be countered by experts.
+Climate change presents an urgent crisis demanding action across all societal sectors. However, the spread of climate change misinformation, especially online, impedes necessary measures. This misinformation reaches a broad audience rapidly, outpacing traditional fact-checking and expert countermeasures. As a result, misinformation can strongly influence public opinion.
 
-An increasing reliance on social media platforms to source news and the rapid prevalence of AI in our modern world  has created a reality in which traditional means of fact-checking and countering misleading information cannot keep up. 
- 
-## A web extension as a solution to Climate Change Misinformation
+## Solution: The Climate Genie Web Extension
 
-Our current answer to this problem is a web extention that will be able to detect and debunk climate change misinformation.
+A proposed solution to this challenge is the **Climate Genie** web extension. This tool is designed to tackle misinformation by:
 
-The way that this would work is someone would have the extension installed on their computer, and when they find a piece of misinformation on the internet, the extention will be able to tell the user what the misinformation is and why it is misleading. Providing this debunking content at the same time or even before the misinformation is read has been proven to be more effective than trying to provide debunking information after people have been exposed to misinformatoin. 
+- Identifying climate change falsehoods online.
+- Alerting users to these inaccuracies.
+- Providing debunking information and external resources.
 
-## Who would use Climate Genie
+## Target Audience
 
-Most people get their news from the internet, therefore making the potential install base extremely large. We have intentionally made the barrier to entry extremely low, and the impact on the browsing experience is minimal in most cases. This should allow maximal uptake amongst people who are even the slightest bit concerned about climate change misinformation.
+The extension aims to attract a wide user base, mainly those who consume online news and hold concerns regarding climate misinformation. The design prioritizes ease of use and minimal browsing disruption to encourage widespread adoption.
 
-## What Climate Genie can Do
+## Current Features of Climate Genie:
 
-Currently, the Climate Genie extension works on most News Sites and Blogs. It can detect over [80 common pieces](https://i0.wp.com/cardsclimate.com/wp-content/uploads/2021/10/header_taxonomy.png?fit=1920%2C800&ssl=1) of climate change misinformation and provide debunking infromation and resouces specifc to each of these claims. 
+- **Misinformation Detection:** Ability to recognize over [80 common](https://i0.wp.com/cardsclimate.com/wp-content/uploads/2021/10/header_taxonomy.png?fit=1920%2C800&ssl=1) arguments denning the need for action around climate change.
+- **Debunking:** Offers users clear explanations and supporting evidence to debunk identified myths.
+- **Data Aggregation:** Collects valuable data on misinformation spread and consumption patterns for future strategic interventions.
 
-In parallel to this, the extension functions as a data gathering tool to see what type of misinformation is being read and where, allowing us to map the landscape of online climate change misinformation and better combat it in the future. 
+## Future Development Pathways
 
-## Where we can take it in the Future
+![Future directions](./tree.png)
 
-After releasing the extension, there are various driections in which we can take it. This has been summariesd in the diagram below.
-
-![Tree Image](./tree.png)
 
 ### Improving Our Modeling
 
-Although our AI model for detecting climate change misinformation is pretty good right now, we still have room to improve it. The ways we can do this are:
+Potential improvements for the AI model include:
 
- - Increasing the amount of training data or compute power we have for it to improve the performance
- - Increasing the number of common climate denialist arguments that it can detect
- - Remaking the model in different languages to work on a global scale
+- **Data Expansion:** Increase training data and computational resources for better performance.
+- **Argument Spectrum:** Enrich the model's ability to identify a broader range of denialist arguments.
+- **Language Support:** Adapt the model for various languages to achieve international impact.
 
 ### Research and Publications
 
-As part of the ongoing development of the extension and its ability to collect data on its user's habits, there various possibilities when looking at research projects and reports.
-
 #### Academic Work
-The research backed nature of the extension provides numerous opportunities to perform academic research. Some ideas for this include:
 
- - Formal Deconstruction of New Claims
- - A Recreation of the work in Coan 2021 with the improved model
- - Investigating behaviour change with the use of the extension
- - A write up of the extension itself
+Opportunities for academic exploration involve:
+
+- **Claim Deconstruction:** Analyze and dismantle emerging misinformation.
+- **Behavioral Studies:** Examine changes in user attitudes upon exposure to the extension.
+- **Project Documentation:** Detail the creation and evolution of the extension in scholarly articles.
 
 #### Report Style Publications
 
-Less formal publications are also possible. A major avenue of this is using the extension and the data it gathers to step into the space of more traditional fact checking. Ideas for this kind of writing include:
+Non-academic content creation options include:
 
- - See what misinformation is trending, and potentially provide pre-bunking material 
- - Misinformation produced by each News Outlet
- - Breakdown of misinformation surrounding a hot topic
+- **Trend Analysis:** Report on emerging misinformation trends.
+- **News Outlet Breakdown:** Examine the proliferation of misinformation across different media platforms.
+- **Topical Misinformation:** Analyze misinformation in relation to current events and heated topics.
 
 ### Deployment Methods
 
-Currently, we provide debunking content through the medium of a web extension. However, there are other methods through which it may be useful, such as:
+Exploration of additional dissemination methods:
 
- - A chatbot
- - Integration with social media (Facebook, X, etc. )
- - App
- - Website
+- **Conversational AI:** Deployment through chatbots to engage with users directly.
+- **Social Media Integration:** Partner with platforms for in-app misinformation detection.
+- **Mobile and Web Platforms:** Development of dedicated apps and websites for easier access.
 
 ### Future Partnerships
 
-The final prospect for expanding the work of the climate genie project is looking into partnering with other organisations who could utilise our resources.
+#### Educational Collaborations 
 
-#### Educational Institutions
+- **Curriculum Integration:** Utilize the systematic debunking methodology as an educational resource.
+- **Climate Classroom Involvement:** Partner with academic programs to integrate the tool into learning environments.
 
-The research that climate genie is based on utilises a systematic method for detecting, breaking down and countering misinformation. Although we have used this work and applied the steps in our extension, it is easy enough to convert it into resources for educators across a range of levels. We already have interest from the Monash School of Media, Film and Journalism, as well as possible connections through the  hubs climate classrooms project.
+#### Fact Checking Alliances
 
-#### Fact Checking Institutions
+- **Misinformation Identification:** Assist organizations by providing early detection tools.
+  
+#### Content Creator Engagements
 
-The first part of any fact checking effort is finding misinformation, something that our model and extension are very good at. We could possibly give fact checking organisations the ability to get ahead of the curb when it comes to new misinformation being spread.
+- **Preventive Measures:** Collaborate with writers and publishers to prevent the dissemination of misinformation from the source.
 
-#### Media Distributors and Writers 
+## Conclusion
 
-Often, misinformation is spread by well meaning people who don’t know any better. Working with publishers, distributors and writers could allow us to help stop the spread of misinformation by stopping it before it gets out into the wold.
-
+The **Climate Genie** sets the stage not just as a user-centric tool but also as a foundational element for data-driven research, academic collaboration, and strategic partnerships, all of which are vitally important for fostering a well-informed public ready to confront climate change misinformation.
