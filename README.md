@@ -27,9 +27,6 @@ The extension aims to attract a wide user base, mainly those who consume online 
 
 ## Future Development Pathways
 
-![Future directions](./tree.png)
-
-
 ### Improving Our Modeling
 
 Potential improvements for the AI model include:
@@ -42,23 +39,17 @@ Potential improvements for the AI model include:
 
 #### Academic Work
 
-Opportunities for academic exploration involve:
-
 - **Claim Deconstruction:** Analyze and dismantle emerging misinformation.
 - **Behavioral Studies:** Examine changes in user attitudes upon exposure to the extension.
 - **Project Documentation:** Detail the creation and evolution of the extension in scholarly articles.
 
 #### Report Style Publications
 
-Non-academic content creation options include:
-
 - **Trend Analysis:** Report on emerging misinformation trends.
 - **News Outlet Breakdown:** Examine the proliferation of misinformation across different media platforms.
 - **Topical Misinformation:** Analyze misinformation in relation to current events and heated topics.
 
 ### Deployment Methods
-
-Exploration of additional dissemination methods:
 
 - **Conversational AI:** Deployment through chatbots to engage with users directly.
 - **Social Media Integration:** Develop the extension to work within social-media sites directly.
