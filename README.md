@@ -1,11 +1,11 @@
 ---
-   title: "Climate Genie: Combating Climate Misinformation"
+   title: "Climate Genie: Combatting Climate Misinformation"
    output: pdf_document
 ---
 
 ## Problem Statement
 
-Climate change presents an urgent crisis demanding action across all societal sectors. However, the spread of climate change misinformation, especially online, impedes necessary measures. This misinformation reaches a broad audience rapidly, outpacing traditional fact-checking and expert countermeasures. As a result, misinformation can strongly influence public opinion.
+Climate change is an urgent crisis demanding action across all societal sectors. However, the spread of climate change misinformation, especially online, impedes necessary measures. This misinformation reaches a broad audience rapidly, outpacing traditional fact-checking and expert countermeasures. As a result, misinformation can strongly influence public opinion.
 
 ## Solution: The Climate Genie Web Extension
 
@@ -17,11 +17,11 @@ A proposed solution to this challenge is the **Climate Genie** web extension. Th
 
 ## Target Audience
 
-The extension aims to attract a wide user base, mainly those who consume online news and hold concerns regarding climate misinformation. The design prioritizes ease of use and minimal browsing disruption to encourage widespread adoption.
+The extension aims to attract a wide user base, mainly those who consume online news and hold concerns regarding climate misinformation. The design prioritizes ease of use and minimal browsing disruption to encourage widespread uptake.
 
 ## Current Features of Climate Genie:
 
-- **Misinformation Detection:** Ability to recognize over [80 common](https://i0.wp.com/cardsclimate.com/wp-content/uploads/2021/10/header_taxonomy.png?fit=1920%2C800&ssl=1) arguments denning the need for action around climate change.
+- **Misinformation Detection:** Ability to recognize over [80 common](https://i0.wp.com/cardsclimate.com/wp-content/uploads/2021/10/header_taxonomy.png?fit=1920%2C800&ssl=1) arguments denying the need for action around climate change.
 - **Debunking:** Offers users clear explanations and supporting evidence to debunk identified myths.
 - **Data Aggregation:** Collects valuable data on misinformation spread and consumption patterns for future strategic interventions.
 
@@ -53,7 +53,7 @@ Potential improvements for the AI model include:
 
 - **Conversational AI:** Deployment through chatbots to engage with users directly.
 - **Social Media Integration:** Develop the extension to work within social-media sites directly.
-- **Mobile and Web Platforms:** Development of dedicated apps and websites for easier access to people who can't use web extensions, e.g. Government workers and Mobile users
+- **Mobile and Web Platforms:** Development of dedicated apps and websites for easier access to people who can't use web extensions, such as Government workers and Mobile users.
 
 ### Future Partnerships
 
@@ -71,4 +71,4 @@ Potential improvements for the AI model include:
 
 ## Conclusion
 
-The **Climate Genie** sets the stage not just as a user-centric tool but also as a foundational element for data-driven research, academic collaboration, and strategic partnerships, all of which are vitally important for fostering a well-informed public ready to confront climate change misinformation.
+The **Climate Genie** sets the stage not just as a user-centric tool but also as a foundational element for data-driven research, academic collaboration, and strategic partnerships, all of which are important for fostering a well-informed public that is ready to confront climate change misinformation.
